@@ -1,5 +1,7 @@
 <?php
 
+require_once("./sdk.php");
+
 $api_key_id = "your_api_key_id";
 $api_key_secret = "your_api_key_secret";
 
