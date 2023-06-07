@@ -33,11 +33,6 @@ class BHumanSDK
             CURLOPT_CUSTOMREQUEST => $method
         ]);
 
-        /* if ($payload) {
-            curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($payload));
-            $this->headers[] = 'Content-Type: application/json';
-        } */
-
         if ($payload) {
             curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($payload));
         }
