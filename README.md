@@ -1,6 +1,8 @@
 # BHuman API PHP SDK
 
-This repository contains a PHP Software Development Kit (SDK) for the BHuman API. BHuman.ai is an advanced AI-based video generation platform. This SDK simplifies the interaction with the BHuman API, providing a structured and object-oriented approach to create dynamic and personalized videos with ease.
+This repository contains a PHP Software Development Kit (SDK) for the BHuman API. BHuman.ai is an advanced AI-based video generation platform. This php SDK simplifies the interaction with the BHuman API, providing a structured and object-oriented approach to create dynamic and personalized videos with ease.
+
+You can find BHuman office API docs with examples here: https://github.com/bhuman-ai/public_api
 
 ## Features
 
@@ -34,8 +36,16 @@ $bh = new BHumanSDK($api_key_id, $api_key_secret);
 
 4. Now you can make calls to the BHuman API. See the provided examples for more details.
 
-## Examples
-You can find usage examples in my blog post: https://henryreith.co/bhuman-ai-api-php-sdk/
+## Example 
+### Retrieving Video Instances
+To fetch video instances, we use the getVideoInstances function. This function returns an array of video instances.
+
+```php
+$video_instances = $bh->getVideoInstances();
+```
+
+## More Examples
+You can find usage examples and a detailed explnation on how to use each SDK class on my blog post: https://henryreith.co/bhuman-ai-api-php-sdk/
 
 ## Contributing
 Feel free to fork this repository, make your changes, and submit a pull request. We're always open to improvements and new features!
