@@ -1,6 +1,6 @@
 # BHuman API PHP SDK
 
-This repository contains a PHP Software Development Kit (SDK) for the BHuman API. BHuman.ai is an advanced AI-based video generation platform. This php SDK simplifies the interaction with the BHuman API, providing a structured and object-oriented approach to create dynamic and personalized videos with ease.
+This repository contains a PHP SDK for the BHuman API. BHuman.ai is an awesome AI-based video generation platform. This PHP SDK simplifies the interaction with the BHuman API, providing a structured and object-oriented approach to create dynamic and personalized videos with ease.
 
 You can find BHuman office API docs with examples here: https://github.com/bhuman-ai/public_api
 
